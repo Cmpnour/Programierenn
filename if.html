@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <p id="result"></p>
+ <p id="Hello"></p>
+    <p>he is my function lesson </p>
+    <input type="text" placeholder="Enter Your Name" id="name" value="">
+    <button onclick="clicker()"> Click me to see the function</button>
+    <button onclick=" sayHello()">Say Hello To user</button>
+    <button onclick=""></button>
+</body>
+<script>
+    function clicker()
+    {
+document.getElementById('result'). innerHTML= "Clicker function is working"
+    }
+    function sayHello()
+    {
+        if(document.getElementById('name').value =="Yousef")
+       {
+        document.getElementById('Hello').innerHTML= "Hello teacher"
+       }
+       else if (document.getElementById('name').value == "How are you ?")
+       {
+        document.getElementById('Hello').innerHTML = "Fine thank you "
+       }
+       else
+       {
+        document.getElementById('Hello').innerHTML = "Hello" + document.getElementById('name').value
+       }
+    }
+</script>
+</html>

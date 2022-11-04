@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(188, 188, 145);">
+    <h1>A registration form</h1>
+    <img src="foto/lotus project.jpeg" alt="lotus-projekt" width="200" height="300">
+    <h2>Please fill out the form to become a member of lotus projekt</h2>
+
+    <form>
+        <label first name style="font-size: 25px">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label last name style="font-size:25px">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label Birthday style="font-size:25px"> Birthday:</label> <br> <br>
+        <input type="date" id="Birthday" name birthday> <br> <br>
+        <label Gender style="font-size: 25px;">Gender :</label>
+        <select name="Gender" id="Gender">
+        <option value="Female"> Female</option>
+        <option value="masculine"> masculine</option> <br> <br>
+    </select> <br> <br>
+    <label Usename style="font-size: 25px"> E-mail:</label> <br>
+        <input type="text" id="Uusename" E-mail:><br> <br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+    <label phone number style="font-size: 25px" > Phone number </label>
+    <input type="text" id="phone number">
+</form> 
+
+<p id="text">Send</p>
+<button type="button"onclick="document.getElementById('text').innerHTML='Your Information is sent'">Send</button>
+
+</body>
+</html>
