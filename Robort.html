@@ -20,15 +20,20 @@
     }
     function clicker()
         {
-            if(document.getElementById('name').value == "Wie geht es dir ?")
+            if(document.getElementById('name').value == "Wie geht es dir ?") 
         {
             document.getElementById('Hello').innerHTML = "Mir geht es gut, danke"
         }
-        else if(document.getElementById('name').value == "Wie heißt du ?")
+         else if(document.getElementById('name').value == "Wie heißt du ?" ||
+         document.getElementById('name').value == "Wie heißt du " ||
+         document.getElementById('name').value == "wie heißt du ?" ||
+         document.getElementById('name').value == "wie heißt du " ||
+         document.getElementById('name').value == "ie Heißt du " ||) 
         {
             document.getElementById('Hello').innerHTML = "Ich heiße Nour"
         }
-        else if(document.getElementById('name').value == "Wie alt bist du ?")
+        else if(document.getElementById('name').value == "Wie alt bist du ?" ||
+        document.getElementById('name').value == "wie alt bist du ? ")
         {
             document.getElementById('Hello').innerHTML = "Ich bin 16 jahre alt"
         }
